@@ -1,6 +1,6 @@
 [package]
 name = "things3"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 homepage = "https://github.com/gleich/rust-things3"
 description = "Intereacting with Things 3"
