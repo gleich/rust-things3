@@ -1,7 +1,8 @@
 [package]
 name = "things3"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+homepage = "https://github.com/gleich/rust-things3"
 
 [dependencies]
 anyhow = "1.0.68"
