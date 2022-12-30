@@ -1,7 +1,7 @@
 use chrono::{DateTime, Local};
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Todo {
     pub id: String,
     pub name: String,
@@ -13,7 +13,7 @@ pub struct Todo {
     pub area: Option<Area>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Project {
     pub id: String,
     pub name: String,
@@ -21,7 +21,7 @@ pub struct Project {
     pub area: Area,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Area {
     pub id: String,
     pub name: String,
